@@ -66,7 +66,7 @@ namespace _7._8
                     Console.WriteLine("Введите имя поля");
                     List<Worker> sortedWorkers = repository.workers;
                     string sortPara = Console.ReadLine();
-                    //repository.workers.Sort(new Comparison<Worker>((x, y) => String.Compare(x.Name, y.Name)))
+                    
                     switch (sortPara)
                     {
                         case "Name":
